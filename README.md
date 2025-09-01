@@ -1,89 +1,66 @@
 # Expense Tracker (Python + Streamlit)
 
-
-
-
-
-
-
-
-
-
-A sleek and lightweight Expense Tracker built with Python, Streamlit, and SQLite.
+A sleek and lightweight **Expense Tracker** built with **Python, Streamlit, and SQLite**.  
 Easily log your expenses, categorize spending, and visualize insights — all in one simple app.
 
- # Live Demo
+## Why This Project Matters  
+-> Demonstrates **Python + Data Science + Web Dev** in one project  
+-> Real-world use case: personal finance management  
+-> Strong foundation for **portfolio**
 
- Try out the app instantly — no setup required!
- Launch Live Demo on Streamlit Cloud
+## Tech Stack  
+-> **Frontend/UI** → Streamlit (interactive web interface)  
+-> **Backend** → Python  
+-> **Database** → SQLite  
+-> **Data Analysis** → Pandas  
+-> **Visualization** → Matplotlib 
 
- # Why This Project Matters
 
-Demonstrates Python + Data Science + Web Dev in one project
+## Features  
+-> Add, view, and categorize expenses  
+-> Auto-generated spending charts & insights  
+-> Category-wise analysis  
+-> Lightweight & fast — runs locally in your browser 
 
-Real-world use case: personal finance management
 
-Strong foundation for portfolio projects
+# Quick Start  
 
-# Tech Stack
-
-Frontend/UI: Streamlit (interactive web interface)
-
-Backend: Python
-
-Database: SQLite
-
-Data Analysis: Pandas
-
-Visualization: Matplotlib
-
-# Features
-
-Add, view, and categorize expenses
-
-Auto-generated spending charts & insights
-
-Category-wise analysis
-
-Lightweight & fast — runs locally in your browser
-
-# Quick Start
-## 1️⃣ Clone the repository
+## Clone the repository
 git clone https://github.com/Ashish2537/ExpenseTracker.git
 cd ExpenseTracker
 
-## 2️⃣ Setup environment
+## Setup environment
 python -m venv venv
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # Mac/Linux
 
-## 3️⃣ Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-## 4️⃣ Run the app locally
+## Run the app locally
 streamlit run app.py
 
-## 5️⃣ Open in browser
+## Open in browser
 http://192.168.1.4:8501
 
-# Project Structure
 
-app.py → Streamlit app entry point
+## Project Structure
+-> app.py → Streamlit app entry point
+<br>
+-> expenses.db → Local SQLite DB (ignored in Git)
+<br>
+-> requirements.txt → Python dependencies
+<br>
+-> .gitignore → Ignore DB & cache files
+<br>
+-> README.md → Documentation
 
-expenses.db → Local SQLite DB (ignored in Git)
+## Future Enhancements
+-> User authentication (multi-user support)
+<br>
+-> Export expenses to CSV/Excel
+<br>
+-> Advanced dashboards with Plotly
+<br>
+-> Deploy to Streamlit Cloud / Azure / Heroku
 
-requirements.txt → Python dependencies
-
-.gitignore → Ignore DB & cache files
-
-README.md → Documentation
-
-# Future Enhancements
-
-User authentication (multi-user support)
-
-Export expenses to CSV/Excel
-
-Advanced dashboards with Plotly
-
-Deploy to Streamlit Cloud / Azure / Heroku
