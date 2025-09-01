@@ -23,36 +23,43 @@ Easily log your expenses, categorize spending, and visualize insights — all in
 -> Lightweight & fast — runs locally in your browser 
 
 
-## Quick Start  
+# Quick Start  
 
-# Clone the repository
+## Clone the repository
 git clone https://github.com/Ashish2537/ExpenseTracker.git
 cd ExpenseTracker
 
-# Setup environment
+## Setup environment
 python -m venv venv
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # Mac/Linux
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# Run the app locally
+## Run the app locally
 streamlit run app.py
 
-# Open in browser
+## Open in browser
 http://192.168.1.4:8501
 
 
 ## Project Structure
 -> app.py → Streamlit app entry point
+<br>
 -> expenses.db → Local SQLite DB (ignored in Git)
+<br>
 -> requirements.txt → Python dependencies
+<br>
 -> .gitignore → Ignore DB & cache files
+<br>
 -> README.md → Documentation
 
 ## Future Enhancements
 -> User authentication (multi-user support)
+<br>
 -> Export expenses to CSV/Excel
+<br>
 -> Advanced dashboards with Plotly
+<br>
 -> Deploy to Streamlit Cloud / Azure / Heroku
