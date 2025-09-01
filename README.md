@@ -28,6 +28,15 @@ Easily log your expenses, categorize spending, and visualize insights — all in
 -> Advanced dashboards with Plotly
 -> Deploy to Streamlit Cloud / Azure / Heroku
 
+# Project Structure
+ExpenseTracker/
+│-- app.py              # Streamlit app
+│-- expenses.db         # Local SQLite DB (ignored in GitHub)
+│-- requirements.txt    # Dependencies
+│-- .gitignore          # Ignore DB & cache
+│-- README.md           # Documentation
+
+# Open In Browser: http://192.168.1.4:8501
 
 ## Quick Start  
 
@@ -46,13 +55,3 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
-
-# Open In Browser -> http://192.168.1.4:8501
-
-# Project Structure
-ExpenseTracker/
-│-- app.py              # Streamlit app
-│-- expenses.db         # Local SQLite DB (ignored in GitHub)
-│-- requirements.txt    # Dependencies
-│-- .gitignore          # Ignore DB & cache
-│-- README.md           # Documentation
