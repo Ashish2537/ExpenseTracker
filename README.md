@@ -27,11 +27,14 @@ Easily log your expenses, categorize spending, and visualize insights — all in
 
 ## Clone the repository
 git clone https://github.com/Ashish2537/ExpenseTracker.git
+<br>
 cd ExpenseTracker
 
 ## Setup environment
 python -m venv venv
+<br>
 venv\Scripts\activate      # Windows
+<br>
 source venv/bin/activate   # Mac/Linux
 
 ## Install dependencies
